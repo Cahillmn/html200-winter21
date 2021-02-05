@@ -1,9 +1,9 @@
-function numberCuber() {
+function numberSquarer() {
 let number = prompt('Pick a number: ')
-function cuber(numberToCube) {
- return numberToCube * numberToCube;
+function square(numberToSquare) {
+ return numberToSquare * numberToSquare;
   
 }
-alert(cuber(number));
+alert(square(number));
 
 }
